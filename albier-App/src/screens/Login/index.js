@@ -36,8 +36,6 @@ export const Login = () => {
                     <Image resizeMode='stretch' style={{width:'20%', height:'90%', transform: [{ scale: 0.5 }]}} source={Lock} />
                     <TextInput 
                         value={inputSenha}
-                        // placeholder={inputSenha}
-                        onChange={(e) => {setTeste(e.nativeEvent.value)}}
                         editable={false} 
                         style={styles.inputSenha} 
                         secureTextEntry={true} 
